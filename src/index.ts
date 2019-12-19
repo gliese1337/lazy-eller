@@ -12,7 +12,7 @@ export type EllerArgs = {
   height?: number;
   wallp?: number;
   floorp?: number;
-  seed?: any;
+  seed?: unknown;
 };
 
 function union(sets: number[], stop: number, a: number, b: number) {

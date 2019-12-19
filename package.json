@@ -22,5 +22,14 @@
     "chai": "^4.2.0",
     "mocha": "^6.2.2",
     "typescript": "^3.7.3"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gliese1337/lazy-eller.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gliese1337/lazy-eller/issues"
+  },
+  "homepage": "https://github.com/gliese1337/lazy-eller#readme"
 }
