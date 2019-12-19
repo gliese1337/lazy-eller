@@ -1,0 +1,26 @@
+{
+  "name": "lazy-eller",
+  "version": "1.0.0",
+  "description": "A lazy generator of infinite mazes",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --recursive",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "maze",
+    "eller"
+  ],
+  "author": "Logan R. Kearsley",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "typescript": "^3.7.3"
+  }
+}
